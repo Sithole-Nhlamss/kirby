@@ -1,0 +1,80 @@
+.k-login-view {
+  --accent:   #e4a8bf;   
+  --bg:       #141417;   
+  --card-bg:  #1c1c21;   
+  --input-bg: #262630;   
+  --text:     #f7f3f5;   
+  --muted:    #a09ba5;   
+
+  background: var(--bg);
+  color: var(--text);
+}
+
+
+.k-login-view .k-panel-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+.k-login-view .k-login-dialog {
+  max-width: 460px;
+  width: 100%;
+  padding: 2.5rem 2.75rem 2.25rem;
+  border-radius: 18px;
+  background: var(--card-bg);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
+}
+
+
+.k-login-view .k-field-label,
+.k-login-view .k-text {
+  color: var(--text);
+}
+
+
+.k-login-view .k-input-element {
+  border-radius: 999px;
+  background: var(--input-bg);
+  border: 1px solid #333341;
+}
+.k-login-view .k-input-element input {
+  background: transparent;
+  color: var(--text);
+}
+.k-login-view .k-input-element input::placeholder {
+  color: var(--muted);
+}
+.k-login-view .k-input-element:focus-within {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+
+.k-login-view .k-login-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+/* primary button – small, chic accent */
+.k-login-view .k-login-button {
+  border-radius: 999px;
+  padding: 0.7rem 1.9rem;
+  border: none;
+  background: var(--accent);
+  color: #26141b;
+  font-weight: 600;
+  box-shadow: 0 10px 18px rgba(166, 103, 122, 0.35);
+}
+.k-login-view .k-login-button:hover {
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+}
+.k-login-view .k-login-button:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 12px rgba(166, 103, 122, 0.35);
+}

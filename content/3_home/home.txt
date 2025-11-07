@@ -1,0 +1,61 @@
+Title: Home
+
+----
+
+Avatar: - 'file://9vmlcpttt1kzuqry'
+
+----
+
+Tagline: Developer
+
+----
+
+Intro: Nhlamulo is a developer who writes Java and React code that (usually) works on the first try.
+
+----
+
+Github: https://github.com/Sithole-Nhlamss
+
+----
+
+Linkedin: https://www.linkedin.com/in/nhlamulo-tukie-sithole-a1383223a/
+
+----
+
+Email: tukienhlamulo87@gmail.com
+
+----
+
+Skills: none lol
+
+----
+
+Projects:
+
+-
+  name: 'Department of Basic Education'
+  description: 'Tutoring application for high school learners'
+  tech: 'html, css, javascript, Google cloud platform, firebase'
+  link: ''
+-
+  name: 'BidAir Cargo'
+  description: 'Cargo management system'
+  tech: ReactJS
+  link: 'https://bidaircargo.co.za/'
+-
+  name: Insurance
+  description: 'Insurance management system(Admin panel)'
+  tech: ReactJS
+  link: ''
+
+----
+
+Headline: Welcome to Kirby's Starterkit
+
+----
+
+Subheadline: A fully documented example project
+
+----
+
+Uuid: wljMYhm0m3e9QOwC

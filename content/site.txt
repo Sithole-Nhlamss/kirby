@@ -1,0 +1,13 @@
+Title: Portfolio
+
+----
+
+Shownavbar: false
+
+----
+
+Showfooter: false
+
+----
+
+Footertext: 

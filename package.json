@@ -1,0 +1,22 @@
+{
+  "name": "kirby-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.20.0",
+  "devDependencies": {
+    "browserslist": "^4.27.0",
+    "laravel-vite-plugin": "^2.0.1",
+    "lightningcss": "^1.30.2",
+    "vite": "^7.2.1",
+    "vite-plugin-laravel": "^0.3.1"
+  }
+}

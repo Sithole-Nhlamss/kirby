@@ -1,0 +1,59 @@
+title: Home
+
+sections:
+  content:
+    type: fields
+    fields:
+      avatar:
+        label: Profile picture
+        type: files
+        multiple: false
+        layout: cards
+        image:
+          cover: true
+
+      tagline:
+        label: Tagline
+        type: text
+        help: e.g. "Frontend dev & UI tinkerer"
+
+      intro:
+        label: Intro
+        type: textarea
+        size: medium
+        buttons: false
+
+      github:
+        label: GitHub URL
+        type: url
+
+      linkedin:
+        label: LinkedIn URL
+        type: url
+
+      email:
+        label: Email
+        type: email
+
+      skills:
+        label: Skills
+        type: tags
+        help: "React, Vue, Kirby, …"
+
+      projects:
+        label: Projects
+        type: structure
+        fields:
+          name:
+            label: Name
+            type: text
+          description:
+            label: Description
+            type: textarea
+            size: small
+          tech:
+            label: Tech
+            type: text
+          link:
+            label: Link
+            type: url

@@ -1,0 +1,35 @@
+columns:
+
+  - width: 1/2
+    sections:
+      pages:
+        type: pages
+        create: default
+        templates:
+          - about
+          - home
+          - default
+
+  - width: 1/1
+    fields:
+      showNavbar:
+        label: Show navbar
+        type: toggle
+        text:
+          - Hidden
+          - Visible
+        default: true
+
+      showFooter:
+        label: Show footer
+        type: toggle
+        text:
+          - Hidden
+          - Visible
+        default: true
+
+      footerText:
+        label: Footer text
+        type: textarea
+        size: small
+        default: "© Your Name"
