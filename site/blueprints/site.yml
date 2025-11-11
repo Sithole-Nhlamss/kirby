@@ -1,5 +1,5 @@
 columns:
-
+  
   - width: 1/2
     sections:
       pages:
@@ -10,26 +10,40 @@ columns:
           - home
           - default
 
-  - width: 1/1
-    fields:
-      showNavbar:
-        label: Show navbar
-        type: toggle
-        text:
-          - Hidden
-          - Visible
-        default: true
+      settings:
+        type: fields
+        fields:
+          showNavbar:
+            label: Show navbar
+            type: toggle
+            text:
+              - Hidden
+              - Visible
 
-      showFooter:
-        label: Show footer
-        type: toggle
-        text:
-          - Hidden
-          - Visible
-        default: true
+          showFooter:
+            label: Show footer
+            type: toggle
+            text:
+              - Hidden
+              - Visible
 
-      footerText:
-        label: Footer text
-        type: textarea
-        size: small
-        default: "© Your Name"
+          footerText:
+            label: Footer text
+            type: writer
+            inline: true
+
+          showAnnouncementBar:
+            label: Show announcement bar
+            type: toggle
+            text:
+              - Hidden
+              - Visible
+
+          announcementTitle:
+            label: Announcement title
+            type: text
+
+          announcementText:
+            label: Announcement text
+            type: writer
+            inline: true

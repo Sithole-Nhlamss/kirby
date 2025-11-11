@@ -11,3 +11,27 @@ Showfooter: false
 ----
 
 Footertext: 
+
+----
+
+Showannouncementbar: true
+
+----
+
+Announcementtitle: Yes Lord
+
+----
+
+Announcementtext: Ama vest
+
+----
+
+Vuebannerenabled: true
+
+----
+
+Vuebannertitle: Yebooooo
+
+----
+
+Vuebannertext: 

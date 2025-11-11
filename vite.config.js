@@ -1,7 +1,11 @@
 import { defineConfig } from "vite";
 import { resolve } from "node:path";
+import vue from '@vitejs/plugin-vue';
+
+
 
 export default defineConfig({
+  plugins: [vue()],
   root: ".",
   publicDir: false,
 
@@ -32,7 +36,8 @@ export default defineConfig({
         "assets/js/index.js",
         "assets/js/lightbox.js",
         "assets/js/prism.js",
+        "src/main.ts",
       ].map((p) => resolve(__dirname, p)),
     },
   },
-});
+},);

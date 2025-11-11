@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowJs": true,
+    "lib": ["ESNext", "DOM"],
+    "types": ["vite/client", "node"],
+    "baseUrl": "./src"
+  },
+  "include": ["src/main.ts", "src/shims-vue.d.ts", "src/App.vue"]
+}

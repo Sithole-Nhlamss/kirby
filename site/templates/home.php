@@ -2,6 +2,16 @@
 
 <main class="page">
 
+ <div
+    id="app"
+    data-enabled="<?= $site->showAnnouncementBar()->toBool() ? '1' : '0' ?>"
+    data-title="<?= $site->announcementTitle()->esc() ?>"
+    data-text="<?= $site->announcementText()->esc() ?>"
+  > </div>
+  
+  <?= vite('src/main.ts') ?>
+  <?php snippet('footer') ?>
+
   <section class="hero">
     <?php if ($image = $page->avatar()->toFile()): ?>
       <img class="hero-avatar" src="<?= $image->url() ?>" alt="<?= $site->title()->esc() ?>">
